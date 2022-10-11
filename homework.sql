@@ -1,5 +1,5 @@
 -- 1. How many actors are there with the last name 'Wahlberg'?
-SELECT first_name
+SELECT COUNT(*) 
 FROM actor
 WHERE last_name = 'Wahlberg';
 
